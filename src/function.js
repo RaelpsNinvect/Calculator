@@ -50,4 +50,5 @@ function calculate() {
     const randomIndex = Math.floor(Math.random() * sentences.length);
     const randomSentence = sentences[randomIndex];
     sentenceDisplay.textContent = randomSentence;
+    // Earl John Vincent R. Perlas
 }
