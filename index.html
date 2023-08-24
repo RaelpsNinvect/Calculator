@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/mian.css">
+    <script src="src/function.js"></script>
+<body>
+    <h2> Calculator </h2>
+    <div class="container">
+        <input class="numbers" type="number" id="number1">
+        <input class="numbers" type="number" id="number2">
+        <select id="operation">
+            <option value="add">Addition</option>
+            <option value="mnus">Subtraction</option>
+            <option value="multi">Multiply</option>
+            <option value="divi">Divide</option>
+            <option value="mode">Modulus</option>
+            <option value="expo">Exponent</option>
+        </select>
+        <button onclick="calculate()"> 
+            Generate Answer
+        </button>
+        <input class="answer" type="text" id="results" value="" readonly>
+        <p id="sentenceDisplay"></p>
+    </div>
+</body>
+</html>
